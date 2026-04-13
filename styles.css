@@ -852,11 +852,14 @@ section { padding: 6rem 0; }
    CONTACT
    ============================================================ */
 .contact-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 1.25rem;
-  max-width: 900px;
-  margin: 0 auto;
+}
+
+.contact-grid .contact-card {
+  flex: 0 1 280px;
 }
 
 .contact-card {
