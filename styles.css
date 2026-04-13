@@ -375,6 +375,7 @@ section { padding: 6rem 0; }
 .section-dark { background: var(--navy-mid); color: var(--white); }
 .section-dark .section-label { color: var(--accent); }
 .section-dark h2 { color: var(--white); }
+.section-dark .section-header h2 { color: var(--white); }
 .section-dark .section-sub { color: rgba(255,255,255,.6); }
 
 .container {
