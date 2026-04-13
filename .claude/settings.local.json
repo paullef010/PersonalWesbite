@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -iE \"\\\\.\\(jpg|jpeg|png|webp\\)$\")",
+      "Bash(npx --version)",
+      "Bash(/c/Users/palef/AppData/Local/Microsoft/WindowsApps/python --version)",
+      "Bash(/c/Users/palef/AppData/Local/Microsoft/WindowsApps/python3 --version)",
+      "Read(//c/Program Files/**)",
+      "Bash(where node:*)",
+      "Bash(where python:*)",
+      "Read(//c/Users/palef/AppData/Roaming/**)",
+      "Read(//c/Users/palef/AppData/Local/Programs//**)",
+      "Read(//c/Users/palef/**)",
+      "Bash(cmd.exe /c \"where node 2>nul & where python 2>nul & where npx 2>nul\")",
+      "Bash(cmd.exe /c \"start \\\\\"\\\\\" \\\\\"C:\\\\\\\\Users\\\\\\\\palef\\\\\\\\OneDrive\\\\\\\\Desktop\\\\\\\\personal website\\\\\\\\index.html\\\\\"\")"
+    ]
+  }
+}

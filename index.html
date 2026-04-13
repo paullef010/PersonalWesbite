@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paul-Alexandre Lefebvre</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a class="nav-logo" href="#hero">PA Lefebvre</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#activities">Activities</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#about" class="mobile-link">About</a></li>
+      <li><a href="#experience" class="mobile-link">Experience</a></li>
+      <li><a href="#education" class="mobile-link">Education</a></li>
+      <li><a href="#skills" class="mobile-link">Skills</a></li>
+      <li><a href="#activities" class="mobile-link">Activities</a></li>
+      <li><a href="#contact" class="mobile-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1 class="hero-name">Paul-Alexandre<br><span>Lefebvre</span></h1>
+        <p class="hero-tagline">Finance & Accounting @ Northeastern University<br>Growth Strategy · M&A · Financial Modeling</p>
+        <div class="hero-actions">
+          <a href="#experience" class="btn-primary">View My Work</a>
+          <a href="#contact" class="btn-secondary">Get In Touch</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://www.linkedin.com/in/paulalexandrelef" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+          <a href="https://github.com/paullef010" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="hero-photo-wrap">
+        <div class="hero-photo-ring">
+          <img src="profile.jpg" alt="Paul-Alexandre Lefebvre" class="hero-photo" />
+        </div>
+        <div class="hero-photo-bg"></div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-label">About Me</span>
+        <h2>Driven by Finance,<br>Grounded in Purpose</h2>
+      </div>
+      <div class="about-grid fade-in">
+        <div class="about-text">
+          <p>I'm a Finance and Accounting student at Northeastern University, Oakland, passionate about the intersection of strategy, investment, and growth. Whether I'm building financial models for early-stage startups, evaluating M&A targets, or captaining my club soccer team, I bring the same energy — focused, collaborative, and always pushing forward.</p>
+          <p>Outside the classroom, I've had the opportunity to work with innovative companies across the Bay Area, gaining hands-on experience in financial projections, go-to-market strategy, and strategic investment support. I'm particularly interested in TMT investing, venture capital, and entrepreneurship.</p>
+          <p>With fluency in English and conversational French, an IB Diploma, and a 3.8 GPA, I'm constantly looking for new challenges to sharpen my skills and create real impact.</p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-number">3.8</span>
+              <span class="stat-label">GPA · Dean's List</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">3</span>
+              <span class="stat-label">Internships</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">50+</span>
+              <span class="stat-label">Volunteer Hours</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">2</span>
+              <span class="stat-label">Languages</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-highlights">
+          <div class="highlight-card">
+            <div class="highlight-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+            </div>
+            <h4>Finance & Strategy</h4>
+            <p>Building financial models, dashboards, and GTM strategies for startups and growing companies.</p>
+          </div>
+          <div class="highlight-card">
+            <div class="highlight-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+            </div>
+            <h4>M&A Research</h4>
+            <p>Conducting due diligence, market research, and outreach for strategic acquisition and partnership opportunities.</p>
+          </div>
+          <div class="highlight-card">
+            <div class="highlight-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+            </div>
+            <h4>Growth & Marketing</h4>
+            <p>Analyzing brand positioning, consumer behavior, and growth metrics to drive measurable business outcomes.</p>
+          </div>
+          <div class="highlight-card">
+            <div class="highlight-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h4>Leadership</h4>
+            <p>Club soccer captain, orchestra concertmaster, and operations chair — leading teams both on and off the field.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section-dark">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-label">Work Experience</span>
+        <h2>Professional Journey</h2>
+      </div>
+      <div class="timeline fade-in">
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-meta">
+              <span class="timeline-date">Jan 2026 – Present</span>
+              <span class="timeline-badge current">Current</span>
+            </div>
+            <h3>Growth and Finance Practicum Intern</h3>
+            <p class="timeline-company">Meenk &nbsp;·&nbsp; Oakland, CA</p>
+            <ul>
+              <li>Construct financial projections and dashboards including revenue, cost, and cash runway with 12/24-month and 5-year forecasts.</li>
+              <li>Analyze unit economics and operating expenses to support budgeting and short-term planning decisions.</li>
+              <li>Build execution-ready go-to-market strategy covering market analysis, positioning, growth metrics, and financial impact.</li>
+              <li>Launched a GTM strategy driving Day-1 event value for 80+ attendees.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-meta">
+              <span class="timeline-date">Nov 2025 – Present</span>
+              <span class="timeline-badge current">Current</span>
+            </div>
+            <h3>Growth Strategy & Investment Support</h3>
+            <p class="timeline-company">Exponent Interview Prep &nbsp;·&nbsp; San Francisco Bay Area</p>
+            <ul>
+              <li>Support evaluation of strategic growth initiatives including M&A and partnership opportunities for finance recruiting expansion.</li>
+              <li>Conduct market research and preliminary due diligence to identify M&A and partnership targets aligned with strategic objectives.</li>
+              <li>Assisted outreach to 25+ founders and executives to explore strategic alignment and M&A considerations.</li>
+              <li>Connected executive team to 5+ partnership/acquisition talks within 1 month.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-meta">
+              <span class="timeline-date">Jul 2024 – Oct 2024</span>
+            </div>
+            <h3>Marketing Extern</h3>
+            <p class="timeline-company">Beats by Dre &nbsp;·&nbsp; Buffalo, NY (Remote)</p>
+            <ul>
+              <li>Analyzed Beats' brand positioning relative to competitors and developed actionable recommendations for brand growth.</li>
+              <li>Led team's market analysis project through extensive data collection, informing marketing strategy and brand positioning.</li>
+              <li>Gathered and analyzed 100+ consumer responses via surveys, interviews, and questionnaires to identify behavioral trends.</li>
+              <li>Developed cross-functional communication skills engaging with marketing and strategy teams.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-label">Education</span>
+        <h2>Academic Background</h2>
+      </div>
+      <div class="edu-card fade-in">
+        <div class="edu-logo">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+        </div>
+        <div class="edu-info">
+          <div class="edu-header">
+            <div>
+              <h3>Northeastern University</h3>
+              <p class="edu-degree">BSBA in Finance and Accounting &nbsp;·&nbsp; Double Major</p>
+            </div>
+            <div class="edu-right">
+              <span class="edu-date">Sep 2025 – Apr 2029</span>
+              <span class="edu-location">Oakland, CA</span>
+            </div>
+          </div>
+          <div class="edu-details">
+            <div class="edu-detail-item">
+              <span class="detail-label">GPA</span>
+              <span class="detail-value">3.8 &nbsp;·&nbsp; Dean's List</span>
+            </div>
+            <div class="edu-detail-item">
+              <span class="detail-label">Honors</span>
+              <span class="detail-value">IB Diploma · AP Scholar with Distinction · NYS Regents Diploma (Advanced) · NYS Seal of Biliteracy (English & French)</span>
+            </div>
+            <div class="edu-detail-item">
+              <span class="detail-label">Coursework</span>
+              <span class="detail-value">Accelerated Finance Track · FINA4610 · FINA3303 · MISM2301 · ACCT1201 · FINA2201 · BUSN4945</span>
+            </div>
+            <div class="edu-detail-item">
+              <span class="detail-label">Upcoming</span>
+              <span class="detail-value">ENTR4510 & ENTR3220 — Dialogue of Civilizations Program, Italy (May 2026)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section-dark">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-label">Skills & Certifications</span>
+        <h2>What I Bring</h2>
+      </div>
+      <div class="skills-grid fade-in">
+        <div class="skill-group">
+          <h4>Technical Skills</h4>
+          <div class="skill-tags">
+            <span class="tag">Financial Modeling</span>
+            <span class="tag">Data Analysis</span>
+            <span class="tag">MATLAB</span>
+            <span class="tag">Microsoft Excel</span>
+            <span class="tag">PowerPoint</span>
+            <span class="tag">Canva</span>
+            <span class="tag">Digital Content Creation</span>
+            <span class="tag">Microsoft Office Suite</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4>Finance & Business</h4>
+          <div class="skill-tags">
+            <span class="tag">Financial Projections</span>
+            <span class="tag">Unit Economics</span>
+            <span class="tag">Go-to-Market Strategy</span>
+            <span class="tag">M&A Due Diligence</span>
+            <span class="tag">Market Research</span>
+            <span class="tag">Brand Strategy</span>
+            <span class="tag">Budgeting</span>
+            <span class="tag">Cash Flow Analysis</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4>Languages</h4>
+          <div class="skill-tags">
+            <span class="tag">English (Fluent)</span>
+            <span class="tag">French (Conversational)</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4>Certifications</h4>
+          <div class="skill-tags">
+            <span class="tag tag-cert">MATLAB Certified</span>
+            <span class="tag tag-cert">Google Ads AI-Powered Performance</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACTIVITIES -->
+  <section id="activities">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-label">Activities & Interests</span>
+        <h2>Beyond the Classroom</h2>
+      </div>
+      <div class="activities-grid fade-in">
+
+        <div class="activity-card">
+          <div class="activity-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v8M8 12h8"/></svg>
+          </div>
+          <h4>Athletics</h4>
+          <p>MLS Next & USL — Buffalo Pro Academy U20. Captain, NEU Oakland Club Soccer. Youth soccer coach and referee.</p>
+        </div>
+
+        <div class="activity-card">
+          <div class="activity-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+          </div>
+          <h4>Performing Arts</h4>
+          <p>Concertmaster of String and Chamber Orchestra. Speech and Debate Leader. Model UN Leader.</p>
+        </div>
+
+        <div class="activity-card">
+          <div class="activity-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+          </div>
+          <h4>Finance & Investing</h4>
+          <p>NEU Investment & Trading Society. NEU Oakland Private Equity & Venture Capital Club. NEU Entrepreneurship Club.</p>
+        </div>
+
+        <div class="activity-card">
+          <div class="activity-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h4>Community</h4>
+          <p>Operations Chair, Northeastern Oakland Filipino Association. 50+ hours volunteering locally. Community outreach and mentorship.</p>
+        </div>
+
+        <div class="activity-card">
+          <div class="activity-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <h4>Tech & Coding</h4>
+          <p>Passionate about coding, social/sports app creation, and building at the intersection of technology and finance.</p>
+        </div>
+
+        <div class="activity-card">
+          <div class="activity-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h4>Global Perspective</h4>
+          <p>IB Diploma recipient. Bilingual English/French. Upcoming Dialogue of Civilizations program in Italy, May 2026.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section-dark">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-label">Contact</span>
+        <h2>Let's Connect</h2>
+        <p class="section-sub">Open to internship opportunities, conversations about finance and investing, or just a good chat.</p>
+      </div>
+      <div class="contact-grid fade-in">
+        <a href="mailto:palefebvre10@gmail.com" class="contact-card">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </div>
+          <h4>Email</h4>
+          <p>palefebvre10@gmail.com</p>
+        </a>
+        <a href="https://www.linkedin.com/in/paulalexandrelef" target="_blank" rel="noopener" class="contact-card">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </div>
+          <h4>LinkedIn</h4>
+          <p>paulalexandrelef</p>
+        </a>
+        <a href="https://github.com/paullef010" target="_blank" rel="noopener" class="contact-card">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          </div>
+          <h4>GitHub</h4>
+          <p>paullef010</p>
+        </a>
+        <a href="tel:7164310836" class="contact-card">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.16 6.16l.91-.91a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </div>
+          <h4>Phone</h4>
+          <p>(716) 431-0836</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>© 2026 Paul-Alexandre Lefebvre &nbsp;·&nbsp; Built with care</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
