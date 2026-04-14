@@ -798,6 +798,219 @@ section { padding: 6rem 0; }
 }
 
 /* ============================================================
+   PRACTICUM
+   ============================================================ */
+.practicum-card {
+  background: rgba(255,255,255,.04);
+  border: 1px solid rgba(255,255,255,.1);
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.practicum-block {
+  display: flex;
+  gap: 2rem;
+  padding: 2.25rem 2.5rem;
+  transition: background var(--transition);
+}
+.practicum-block:hover { background: rgba(255,255,255,.03); }
+
+.practicum-number {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: rgba(201,168,76,.25);
+  line-height: 1;
+  min-width: 52px;
+  padding-top: .1rem;
+}
+
+.practicum-content { flex: 1; }
+
+.practicum-content h3 {
+  font-size: .75rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 1rem;
+}
+
+.practicum-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.practicum-project-name {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--white);
+  font-family: 'Playfair Display', serif;
+}
+
+.practicum-org {
+  color: var(--accent);
+  font-size: .95rem;
+  font-weight: 500;
+  margin-top: .3rem;
+}
+
+.practicum-badges {
+  display: flex;
+  gap: .5rem;
+  flex-wrap: wrap;
+}
+
+.p-badge {
+  font-size: .75rem;
+  font-weight: 600;
+  padding: .3rem .75rem;
+  border-radius: 20px;
+  background: rgba(255,255,255,.07);
+  color: rgba(255,255,255,.6);
+  border: 1px solid rgba(255,255,255,.12);
+}
+
+.current-badge {
+  background: rgba(201,168,76,.15);
+  color: var(--accent);
+  border-color: rgba(201,168,76,.3);
+}
+
+.practicum-role-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--white);
+  margin-bottom: .875rem;
+}
+
+.practicum-responsibilities {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: .4rem;
+  margin-bottom: 1.25rem;
+}
+
+.practicum-responsibilities li {
+  font-size: .9rem;
+  color: rgba(255,255,255,.6);
+  padding-left: 1.25rem;
+  position: relative;
+  line-height: 1.6;
+}
+
+.practicum-responsibilities li::before {
+  content: '';
+  position: absolute;
+  left: 0; top: .6em;
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+  opacity: .7;
+}
+
+.practicum-overview {
+  font-size: .925rem;
+  color: rgba(255,255,255,.55);
+  line-height: 1.8;
+  border-left: 2px solid rgba(201,168,76,.3);
+  padding-left: 1rem;
+}
+
+.practicum-divider {
+  height: 1px;
+  background: rgba(255,255,255,.07);
+  margin: 0 2.5rem;
+}
+
+.practicum-two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.practicum-col-label {
+  font-size: .75rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.4);
+  margin-bottom: .875rem;
+}
+
+.practicum-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.practicum-list li {
+  font-size: .875rem;
+  color: rgba(255,255,255,.65);
+  padding-left: 1.25rem;
+  position: relative;
+  line-height: 1.6;
+}
+
+.practicum-list li::before {
+  content: '';
+  position: absolute;
+  left: 0; top: .6em;
+  width: 5px; height: 5px;
+  border-radius: 50%;
+  background: var(--accent);
+  opacity: .6;
+}
+
+.practicum-skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+}
+
+.p-tag {
+  font-size: .78rem;
+  font-weight: 500;
+  padding: .3rem .75rem;
+  border-radius: 20px;
+  background: rgba(255,255,255,.06);
+  color: rgba(255,255,255,.7);
+  border: 1px solid rgba(255,255,255,.1);
+  transition: background var(--transition), color var(--transition);
+}
+
+.p-tag:hover {
+  background: rgba(201,168,76,.15);
+  color: var(--accent);
+}
+
+.practicum-reflection-prompt {
+  font-size: .9rem;
+  font-style: italic;
+  color: var(--accent);
+  opacity: .85;
+  margin-bottom: 1rem;
+}
+
+.practicum-reflection {
+  font-size: .925rem;
+  color: rgba(255,255,255,.6);
+  line-height: 1.9;
+}
+
+@media (max-width: 768px) {
+  .practicum-block { flex-direction: column; gap: 1rem; padding: 1.75rem; }
+  .practicum-number { font-size: 1.75rem; }
+  .practicum-two-col { grid-template-columns: 1fr; }
+  .practicum-title-row { flex-direction: column; align-items: flex-start; }
+}
+
+/* ============================================================
    ACTIVITIES
    ============================================================ */
 .activities-grid {
